@@ -1,0 +1,17 @@
+.left{
+	width:20%;
+	height:400px;
+	float:left;
+	background-color:#C00;}
+.center{
+	width:60%;
+	height:400px;
+	float:left;
+	background-color:#0C6;
+	}
+.right{
+	width:20%;
+	height:400px;
+	float:left;
+	background-color:#FF0;
+	}

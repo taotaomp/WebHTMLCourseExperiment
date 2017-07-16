@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<script>
+	var count = 0;
+	function promptPwd()
+	{
+		if(prompt("请输入密码：","password")!="admin")
+		{
+			alert("密码错误！");
+			count++;
+		}
+		else
+		{
+			alert("密码输入成功，正在为您跳转");	
+		
+		}
+			// 调用 prompt() 方法时，可以不使用 window.prompt()，而直接使用 prompt()。
+	}
+	function forceClose()
+	{
+		if(count>=3)
+		{
+			alert("密码错误超过3次，今日内不允许再次登录网页");
+			window.close();
+		}
+	}
+</script>
+</head>
+
+<body style="text-align:center;">
+	<h2>单击以下按钮输入密码...</h2>
+    <form onMouseMove="forceClose()">
+    	<input onClick="promptPwd()" type="button" value="输入密码"/>
+    </form>
+</body>
+</html>

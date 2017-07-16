@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>可变宽度圆角框</title>
+<style type="text/css">
+	#round{
+		font:12px/1.6 arial;
+		background-position:left top;
+		background-image:url(resource/left-top.gif);
+		background-repeat:no-repeat;
+		background-color:#CBA276;
+		}
+	#round h3{
+		background-image:url(resource/right-top.gif);
+		background-position:right top;
+		background-repeat:no-repeat;
+		padding:15px 20px 0px;
+		color:#fff;
+		margin:0;
+		}
+	#round p{
+		text-indent:2em;
+		
+		}
+	#round p.thelast{
+		background-image:url(resource/left-bottom.gif);
+		background-position:left bottom;
+		background-repeat:no-repeat;
+		text-indent:2em;
+		}
+	#round span{
+		background-image:url(resource/right-bottom.gif);
+		background-position:right bottom;
+		background-repeat:no-repeat;
+		display:block;
+		padding:10px 20px 13px;}
+	#newli ul{
+		list-style-type:none;}
+	#newli li{
+		background-image:url(resource/arrow.gif);
+		background-repeat:no-repeat;
+		background-position:left;
+		text-indent:1em;}
+		
+	#theround{
+		font:12px/1.6 Arial;
+		background-image:url(resource/middle-frame.gif);
+		background-repeat:repeat-y;
+		width:280px;
+		padding:0;
+		margin:0 auto;}
+	#theround h3{
+		background-image:url(resource/top-frame.gif);
+		background-repeat:no-repeat;
+		padding:20px 20px 0px;
+		font-size:170%;
+		color:#cba276;
+		margin:0;
+		}
+	#theround p.last{
+		padding:0 20px 18px;
+		background-image:url(resource/bottom-frame.gif);
+		background-repeat:no-repeat;
+		height:1%;}
+	#theround p{
+		padding:20px;
+		text-indent:2em;}
+</style>
+</head>
+
+<body>
+<div id="round">
+	<h3 align="center">可变宽度圆角框</h3>
+    <p>这是一个可变宽度的圆角框，这个圆角框的上下随着内容增多可以自由伸展，圆角不会被破坏</p>
+    <p>这是一个可变宽度的圆角框，这个圆角框的上下随着内容增多可以自由伸展，圆角大概不会被破坏吧</p>
+    <p>这是一个可变宽度的圆角框，这个圆角框的上下随着内容增多可以自由伸展，圆角真的不会被破坏</p>
+    <p class="thelast"><span></span></p>
+</div>
+<div id="newli">
+	<ul>
+    	<li>中心简介</li>
+        <li>政策法规汇总</li>
+        <li>为您服务</li>
+    </ul>
+</div>
+<div id="theround">
+	<h3 align="center">带边框的圆角框</h3>
+    <p>这是一个可变宽度的圆角框，这个圆角框的上下随着内容增多可以自由伸展，圆角不会被破坏</p>
+    <p class="last">
+</div>
+</body>
+</html>

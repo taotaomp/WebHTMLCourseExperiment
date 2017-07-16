@@ -1,0 +1,20 @@
+.left{
+	width:20%;
+	height:400px;
+	float:left;
+	color:#ccc;
+	background-color:#06F;}
+.center{
+	width:60%;
+	height:400px;
+	float:left;
+	background-color:#60C;
+	color:#FFF;
+	}
+.right{
+	width:20%;
+	height:400px;
+	float:left;
+	background-color:#6CF;
+	color:#999;
+	}

@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>自适应宽度圆角导航条</title>
+<style type="text/css">
+a {
+	font-size: 14px;
+	background-image:url(resource/yuanjiao2.png);
+	background-position:left top;
+	display: block;
+	float: left;
+	color: #FFF;
+	text-decoration: none;
+	height: 32px;
+	line-height: 32px;		/*实现文字垂直居中*/
+	padding-left: 24px;		/*防档左圆角*/
+}
+b {
+	background-image: url(resource/yuanjiao2.png);
+	background-position:right top ;
+	display: block;
+	padding-right: 24px;	/*防档右圆角*/
+}
+.the1 a:hover{
+	color:silver;}
+.the2 a:hover{
+	background-position:0 -32px;}
+.the2 a:hover b{
+	background-position:100% -32px;
+	color:red;}
+</style>
+</head>
+
+<body>
+<div class="the1">
+  <a href="#"><b>首页</b></a>
+  <a href="#"><b>中心简介</b></a>
+  <a href="#"><b>政策法规</b></a>
+  <a href="#"><b>常用下载</b></a>
+  <a href="#"><b>为您服务</b></a>
+  <a href="#"><b>技术支持和服务</b></a>
+</div>
+<br /><br /><br /><br /><br />
+<div class="the2">
+  <a href="#"><b>首页</b></a>
+  <a href="#"><b>中心简介</b></a>
+  <a href="#"><b>政策法规</b></a>
+  <a href="#"><b>常用下载</b></a>
+  <a href="#"><b>为您服务</b></a>
+  <a href="#"><b>技术支持和服务</b></a>
+</div>
+</body>
+</html>

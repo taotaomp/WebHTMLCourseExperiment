@@ -1,0 +1,51 @@
+@import url("index.css");
+body{
+	width:80%;
+	position:relative;
+	left:50%;
+	margin-left:-40%;
+	}
+.header{
+	
+	font-size:40px;
+	font-family:"华文仿宋", "Adobe 仿宋 Std R";
+	}
+
+.nav a{
+	text-decoration:none;
+	color:#000;
+	}
+.nav ul,nav li{
+	list-style-type:none;
+	}
+.nav #surface{
+	margin:0px;}
+.nav #surface .theFloat{
+	float:left;
+	width:25%;
+	margin:0px;
+	}
+.nav #surface .theFloat p{
+	margin:0px;
+	font-size:20px;
+	font-family:"华文仿宋", "Adobe 仿宋 Std R";
+	}
+.nav #surface .theFloat p:hover{
+	background-color:#000;
+	color:#CCC;
+	font-weight:bolder;
+	}
+
+.foot{
+	font-size:14px;
+	font-family:"华文仿宋", "Adobe 仿宋 Std R";
+	clear:both;}
+.foot a
+	{
+		text-decoration:none;
+		color:#000;
+		}
+.foot a:hover {
+	color:#CCC;
+	background-color:#000;
+	}

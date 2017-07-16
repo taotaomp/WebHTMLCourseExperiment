@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>美化表单</title>
+<style type="text/css">
+.jump a{
+	display:block;
+	text-decoration:none;
+	width:40px;
+	text-align:center;
+	background-color:#999;
+	color:#CCC;
+	margin:0px;
+	}
+.jump a:hover{
+	background-color:#000;
+	color:#FFF;
+	}
+	
+	
+form{
+	border:1px dotted #999;
+	padding:1px 6px;
+	margin:0px;
+	font:14px Arial, Helvetica, sans-serif;
+	}
+input{
+	color:#00008B;}
+input.txt{
+	background-color:#fee;
+	border:none;
+	border-bottom:1px solid #266980;
+	color:#1D5061;}
+input.btn{
+	color:#00008B;
+	background-color:#ADD8E6;
+	border:1px outset #00008B;
+	padding:3px 2px 1px;}
+	
+select{
+	width:100px;
+	color:#00008B;
+	background-color:#ADD8E6;
+	border:1px solid #00008B;}
+textarea{
+	width:200px;
+	height:40px;
+	color:#00008B;
+	background-color:#ADD8E6;
+	border:1px inset #00008B;}
+</style>
+</head>
+
+<body>
+<div class="jump"><a href="dashed_border_table.html">跳转</a></div>
+<form name="form1" method="get">
+    
+    	<p align="center">
+        用户：<input class="txt" name="user" type="text" size="20" height="18" />
+     	<br />
+        密码：<input class="txt" name="password" type="password" size="20" maxlength="16" height="18" />
+        </p>
+        
+        <p align="center">
+        性别
+          <label>
+            <input type="radio" name="sex" value="1" id="sex_0" />
+            男</label>
+			&nbsp;&nbsp;&nbsp;&nbsp;
+          <label>
+            <input type="radio" name="sex" value="0" id="sex_1" />
+            女</label>
+        </p>
+
+        <p align="center">
+          爱好
+          <br />
+          <label>
+            <input type="checkbox" name="hobby" value="0" id="爱好_0" />
+            运动</label>
+
+          <label>
+            <input type="checkbox" name="hobby" value="1" id="爱好_1" />
+            唱歌</label>
+          <br />
+          <label>
+            <input type="checkbox" name="hobby" value="2" id="爱好_2" />
+            看书</label>
+  
+          <label>
+            <input type="checkbox" name="hobby" value="3" id="爱好_3" />
+            旅游</label>
+          <br />
+          <label>
+            <input type="checkbox" name="hobby" value="4" id="爱好_4" />
+            飙车</label>
+ 
+        </p>
+
+        <p align="center">
+            <select name="address" >
+            	<option value="1">四川</option>
+                <option value="2">广东</option>
+            </select>
+        <p align="center">
+        	<input class="btn" name="submit" type="submit" value="提交" />
+        </p>
+	</form>
+</body>
+</html>

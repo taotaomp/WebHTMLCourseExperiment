@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>表单建立测试</title>
+</head>
+
+<body>
+	<form name="form1" method="get">
+    
+    	<p align="center">
+        用户：<input name="user" type="text" size="20" height="18" />
+     	<br />
+        密码：<input name="password" type="password" size="20" maxlength="16" height="18" />
+        </p>
+        
+        <p align="center">
+        性别
+          <label>
+            <input type="radio" name="sex" value="1" id="sex_0" />
+            男</label>
+			&nbsp;&nbsp;&nbsp;&nbsp;
+          <label>
+            <input type="radio" name="sex" value="0" id="sex_1" />
+            女</label>
+        </p>
+
+        <p align="center">
+          爱好
+          <br />
+          <label>
+            <input type="checkbox" name="hobby" value="0" id="爱好_0" />
+            运动</label>
+
+          <label>
+            <input type="checkbox" name="hobby" value="1" id="爱好_1" />
+            唱歌</label>
+          <br />
+          <label>
+            <input type="checkbox" name="hobby" value="2" id="爱好_2" />
+            看书</label>
+  
+          <label>
+            <input type="checkbox" name="hobby" value="3" id="爱好_3" />
+            旅游</label>
+          <br />
+          <label>
+            <input type="checkbox" name="hobby" value="4" id="爱好_4" />
+            飙车</label>
+ 
+        </p>
+
+        <p align="center">
+            <select name="address" >
+            	<option value="1">四川</option>
+                <option value="2">广东</option>
+            </select>
+        <p align="center">
+        	<input name="submit" type="button" value="提交" />
+        </p>
+	</form>
+</body>
+</html>

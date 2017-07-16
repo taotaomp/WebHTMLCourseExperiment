@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>栏目框标题栏</title>
+<style type="text/css">
+.default{
+	margin:0px auto;
+	padding:0px;
+	width:300px;
+	height:270px;
+	border:1px solid;}
+#colframe{
+	width:300px;
+	margin:0 auto;
+	border:1px gray solid;
+	height:24px;
+	background-color:#CCCCCC;
+	padding-top:10px;}
+#colframe span.title{
+	float:left;
+	padding-left:16px;
+	}
+#colframe span.more{
+	float:right;
+	padding-right:12px;
+	}
+#colframe span a{
+	color:black;
+	text-decoration:none;}
+#colframe span a:hover{
+	color:white;
+	background-color:black;}
+</style>
+</head>
+
+<body>
+	<div class="default" align="center">
+    <h3 id="colframe">
+    	<span class="title">栏目标题1</span>
+        <span class="more"><a href="pic4_89.html">more</a></span>
+    </h3>
+    <marquee behavior="scroll" onmouseover="this.stop()" onmouseout="this.start()" direction="down">栏目详细信息</marquee>
+    </div>
+</body>
+</html>

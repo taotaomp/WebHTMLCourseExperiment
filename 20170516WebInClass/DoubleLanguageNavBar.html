@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>中英文导航条</title>
+<style type="text/css">
+	.nav{
+		width:600px;
+		position:relative;
+		left:50%;
+		margin-left:-300px;
+		}
+	.nav a{
+		font-size:14px;
+		text-decoration:none;
+		background-color:#79bcff;
+		text-align:center;
+		color:#333;
+		border-bottom:8px solid #99cc00;
+		padding:6px 10px 4px 10px;
+		position:relative;
+		width:60px;
+		margin:0 2px;
+		float:left;
+		}
+	.nav b{
+		display:none;
+		position:absolute;
+		}
+	.nav a:hover a{
+		color:#cc0000;
+		border-bottom-color:#cf3;
+		}
+	.nav a:hover b{
+		display:block;
+		top:0;
+		left:0;
+		background-color:#ccc;
+		width:60px;
+		padding:6px 10px 4px 10px;
+		}
+</style>
+</head>
+
+<body>
+	<div class="nav">
+    	<ul>
+          <a href="#"><b>首页</b>Home</a>
+          <a href="#"><b>关于我们</b>AboutUs</a>
+          <a href="#"><b>产品展示</b>Products</a>
+          <a href="#"><b>售后服务</b>Service</a>
+          <a href="#"><b>联系我们</b>Contact</a>
+       </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>缺角的导航条</title>
+<style type="text/css">
+	.nav a{
+		background-color:#79bcff;
+		font-size:14px;
+		color:#333;
+		text-decoration:none;
+		border-bottom:8px solid #99cc00; /*下方绿条*/
+		display:block;
+		float:left;
+		padding:6px 10px 4px 10px;
+		margin:0 2px;
+		position:relative;
+		}
+	.nav a b{
+		border-bottom:8px solid #79bcff;
+		border-left:8px solid #FFF;
+		overflow:hidden;
+		height:0px;
+		position:absolute;
+		left:0;
+		top:0;
+		}
+	.nav a span{
+		border-bottom:8px solid #79bcff;
+		border-right:8px solid #FFF;
+		overflow:hidden;
+		height:0px;
+		position:absolute;
+		right:0;
+		top:0;
+		}
+	.nav a:hover{
+		color:#c00;
+		background-color:#ccc;
+		border-bottom-color:#cf3;}
+	.nav a:hover b,a:hover span{
+		border-bottom-color:#ccc;
+		}
+</style>
+</head>
+
+<body>
+	<div class="nav">
+    	<a href="#"><b></b><span></span>首页</a>
+        <a href="#"><b></b><span></span>中心简介</a>
+        <a href="#"><b></b><span></span>政策法规</a>
+        <a href="#"><b></b><span></span>常用下载</a>
+        <a href="#"><b></b><span></span>为您服务</a>
+        <a href="#"><b></b><span></span>技术支持</a>
+    </div>
+</body>
+</html>
